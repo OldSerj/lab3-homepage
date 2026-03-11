@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+</head>
+<body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <header>
+        <h1>Welcome to My Site</h1>
+        <nav aria-label="Main navigation">
+            <ul>
+                <li><a href="feedback.html">Write us a review!</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="main-content">
+        <section>
+            <h2>About Us</h2>
+            <p>This is the homepage for my lab assignment. Here you can find information about our services and how to get in touch.</p>
+        </section>
+
+        <!-- ========================= -->
+        <!-- PERSONAL SKILLS TABLE     -->
+        <!-- ========================= -->
+        <section>
+            <h2>Personal Skills</h2>
+
+            <table border="1">
+                <caption>Personal Skills Overview</caption>
+
+                <thead>
+                    <tr>
+                        <th scope="col" colspan="3">Personal Skills</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <th scope="row" rowspan="3">Programming</th>
+                        <td>Advanced</td>
+                        <td>JavaScript</td>
+                    </tr>
+
+                    <tr>
+                        <td>Intermediate</td>
+                        <td>C/C++</td>
+                    </tr>
+
+                    <tr>
+                        <td>Beginner</td>
+                        <td>Java</td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row" rowspan="3">Design</th>
+                        <td colspan="2">Figma</td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="2">Photoshop</td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="2">UI/UX</td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row">Other</th>
+                        <td colspan="2">Git</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- ========================= -->
+        <!-- PORTFOLIO TABLE           -->
+        <!-- ========================= -->
+        <section>
+            <h2>Project Portfolio</h2>
+
+            <table border="1">
+                <caption>Personal Projects Portfolio</caption>
+
+                <thead>
+                    <tr>
+                        <th scope="col">Project Name</th>
+                        <th scope="col">Description</th>
+                        <th scope="col">Technologies</th>
+                        <th scope="col">Difficulty</th>
+                        <th scope="col">Link</th>
+                        <th scope="col">ETC</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <th scope="row">Portfolio Website</th>
+                        <td>A personal website showcasing my work.</td>
+                        <td>
+                            <ul>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>JavaScript</li>
+                            </ul>
+                        </td>
+                        <td>
+                            <select>
+                                <option>Low</option>
+                                <option selected>Medium</option>
+                                <option>High</option>
+                            </select>
+                        </td>
+                        <td><a href="https://github.com/" target="_blank">GitHub Repo</a></td>
+                        <td rowspan="2">Front-end Projects</td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row">Weather App</th>
+                        <td>Displays weather data using an API.</td>
+                        <td>
+                            <ul>
+                                <li>JavaScript</li>
+                                <li>API</li>
+                                <li>CSS</li>
+                            </ul>
+                        </td>
+                        <td>
+                            <select>
+                                <option>Low</option>
+                                <option>Medium</option>
+                                <option selected>High</option>
+                            </select>
+                        </td>
+                        <td><a href="https://github.com/" target="_blank">GitHub Repo</a></td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row">Game Prototype</th>
+                        <td colspan="2">A simple 2D game built for experimentation.</td>
+                        <td>
+                            <select>
+                                <option selected>Low</option>
+                                <option>Medium</option>
+                                <option>High</option>
+                            </select>
+                        </td>
+                        <td><a href="https://github.com/" target="_blank">GitHub Repo</a></td>
+                        <td>Experimental</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 OldSerj. All rights reserved.</p>
+        <p><a href="contact.html">Contact Us</a></p>
+    </footer>
+</body>
+</html>
